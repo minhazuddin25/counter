@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+  
+}
+
+.main{
+    width: 1200px;
+    margin: 100px auto;
+}
+
+.counter-box{
+display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: tomato;
+  color: #fff;
+}
+.single-counter{
+    width: 25%;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.single-counter h4{
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.single-counter h4 span{
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+}
