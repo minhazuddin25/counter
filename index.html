@@ -28,7 +28,11 @@
     <script src="/assets/js/counterup.min.js"></script>
     <script>
        $(document).ready(function(){
-            $('.counter').counterUp();
+            $('.counter').counterUp({
+                delay: 10,
+                time: 10000
+            });
+
        });
     </script>
 </body>
