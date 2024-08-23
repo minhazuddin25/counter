@@ -10,18 +10,26 @@
     <div class="main">
         <div class="counter-box">
             <div class="single-counter">
-                <h4><span>200</span> projects</h4>
+                <h4><span class="counter">200</span> projects</h4>
             </div>
             <div class="single-counter">
-                <h4><span>200</span> Awards</h4>
+                <h4><span class="counter">25</span> Awards</h4>
             </div>
             <div class="single-counter">
-                <h4><span>200</span> Line of code</h4>
+                <h4><span class="counter">200</span> Line of code</h4>
             </div>
             <div class="single-counter">
-                <h4><span>4</span> Years of Expericence </h4>
+                <h4><span class="counter">4</span> Years of Expericence </h4>
             </div>
         </div>
     </div>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/waypoint.min.js"></script>
+    <script src="/assets/js/counterup.min.js"></script>
+    <script>
+       $(document).ready(function(){
+            $('.counter').counterUp();
+       });
+    </script>
 </body>
 </html>
